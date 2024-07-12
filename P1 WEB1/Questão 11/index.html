@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h3>Prova 1 Web I</h3><br/>
+        <p id="aluno"></p>
+        <form>
+            <input type="button" value="proximo" onclick="proxAluno();"/>
+        </form>
+        <script>
+        function proxAluno(){
+            var text = {"firstName":"Pedro","lastName":"Silva" };
+            document.getElementById("aluno").innerHTML = text["firstName"];
+        }
+        </script>
+    </body>
+</html>
